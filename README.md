@@ -27,6 +27,7 @@ The extension utilises cutting-edge technologies, including advanced text-to-spe
 
 1. Clone the repository
 ```sh
+git clone https://github.com/Tharanesh-github/Vision-Voice.git
 ```
 
 ## Authors
