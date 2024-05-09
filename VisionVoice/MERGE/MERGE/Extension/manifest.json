@@ -1,0 +1,33 @@
+{
+    "name": "Vision Voice",
+    "version": "1.0.0",
+    "description": "First Version For Vision Voice",
+    "manifest_version": 3,
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tts"
+    ],
+    "host_permissions": [
+      "http://localhost:3000/*"
+    ],
+    "background": {
+      "service_worker": "dist/background.bundle.js",
+      "type": "module"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["src/content.js"]
+      }
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' http://localhost:3000; object-src 'self'",
+      "sandbox": "sandbox allow-scripts allow-forms"
+    },
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+ 
+  

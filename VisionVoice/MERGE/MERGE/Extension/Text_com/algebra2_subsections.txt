@@ -1,0 +1,5 @@
+Basic knowledge of polynomial functions
+Remainder and factor theorems
+Roots and zeros
+Descartes' rule of sign
+Composition of functions

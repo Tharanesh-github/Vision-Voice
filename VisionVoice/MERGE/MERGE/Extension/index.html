@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Voice</title>
+    <link rel="stylesheet" href="other-assets/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-container">
+            <img class="logo" src="other-assets/logo.png" alt="logo">
+            <h1 class="top-heading">Vision Voice</h1>
+            <div class = "texts">
+                <p>Hello WOrld</p>
+            </div>
+        </div>
+       
+        <div class="switch-container">
+            <h3 class="switch-heading">Master Switch</h3>
+            <button id="startRecognitionButton">Start Speech Recognition</button>
+            <!-- <input type="checkbox" id="master-switch" /><label for="master-switch">Toggle</label> -->
+        </div>
+        <div id = "loadingIndicator" style = "display: none;">Loading...</div>
+        <div class="switch-container">
+            <h3 class="switch-heading">Keyboard Navigation</h3>
+            <input type="checkbox" id="keyboard-switch" /><label for="keyboard-switch">Toggle</label>
+        </div>
+        <div class="switch-container">
+            <h3 class="switch-heading">Voice Navigation</h3>
+            <input type="checkbox" id="voice-switch" /><label for="voice-switch">Toggle</label>
+        </div>
+        <div class="switch-container">
+            <h3 class="switch-heading">Voice Option</h3>
+            <select name="voice-combobox" id="voice-combobox">
+                <option value="Google UK English Male">Male</option>
+                <option value="Google UK English Female">Female</option>
+            </select>
+        </div>
+        
+        
+        <div class="slider-container">
+            <h4 class="slider-heading">Voice Speed</h4>
+            <p><span id="slider-value">1.0</span></p>
+            <input type="range" min="0.25" max="1.75" step="0.25" value="1.0" class="slider" id="myrange">
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src = "src/main.js"></script>
+
+
+    
+</body>
+</html>

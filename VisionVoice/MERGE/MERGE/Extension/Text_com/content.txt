@@ -1,0 +1,46 @@
+In this section we need to review some of the basic ideas in graphing.  It is assumed that you’ve seen some graphing to this point and so we aren’t going to go into great depth here.  We will only be reviewing some of the basic ideas.
+We will start off with the Rectangular or Cartesian coordinate system.  This is just the standard axis system that we use when sketching our graphs.  Here is the Cartesian coordinate system with a few points plotted.
+The horizontal and vertical axes, typically called the xxx-axis and the yyy-axis respectively, divide the coordinate system up into quadrants as shown above.  In each quadrant we have the following signs for xxx and yyy.
+Each point in the coordinate system is defined by an ordered pair of the form (x,y)(x,y)\left( {x,y} \right).  The first number listed is the xxx-coordinate of the point and the second number listed is the yyy-coordinate of the point.  The ordered pair for any given point, (x,y)(x,y)\left( {x,y} \right), is called the coordinates for the point.
+The point where the two axes cross is called the origin and has the coordinates (0,0)(0,0)\left( {0,0} \right).
+Note as well that the order of the coordinates is important.  For example, the point (2,1)(2,1)\left( {2,1} \right) is the point that is two units to the right of the origin and then 1 unit up, while the point (1,2)(1,2)\left( {1,2} \right) is the point that is 1 unit to the right of the origin and then 2 units up.
+We now need to discuss graphing an equation.  The first question that we should ask is what exactly is a graph of an equation?  A graph is the set of all the ordered pairs whose coordinates satisfy the equation.
+For instance, the point (2,−3)(2,−3)\left( {2, - 3} \right) is a point on the graph of y=(x−1)2−4y=(x−1)2−4y = {\left( {x - 1} \right)^2} - 4 while (1,5)(1,5)\left( {1,5} \right) isn’t on the graph.  How do we tell this?  All we need to do is take the coordinates of the point and plug them into the equation to see if they satisfy the equation.  Let’s do that for both to verify the claims made above.
+In this case we have x=2x=2x = 2 and y=−3y=−3y =  - 3 so plugging in gives,
+So, the coordinates of this point satisfies the equation and so it is a point on the graph.
+Here we have x=1x=1x = 1 and y=5y=5y = 5.  Plugging these in gives,
+The coordinates of this point do NOT satisfy the equation and so this point isn’t on the graph.
+Now, how do we sketch the graph of an equation?  Of course, the answer to this depends on just how much you know about the equation to start off with.  For instance, if you know that the equation is a line or a circle we’ve got simple ways to determine the graph in these cases.  There are also many other kinds of equations that we can usually get the graph from the equation without a lot of work.  We will see many of these in the next chapter.
+However, let’s suppose that we don’t know ahead of time just what the equation is or any of the ways to quickly sketch the graph.  In these cases we will need to recall that the graph is simply all the points that satisfy the equation.  So, all we can do is plot points.  We will pick values of xxx, compute yyy from the equation and then plot the ordered pair given by these two values.
+How, do we determine which values of xxx to choose?  Unfortunately, the answer there is we guess.  We pick some values and see what we get for a graph.  If it looks like we’ve got a pretty good sketch we stop.  If not we pick some more.  Knowing the values of xxx to choose is really something that we can only get with experience and some knowledge of what the graph of the equation will probably look like.  Hopefully, by the end of this course you will have gained some of this knowledge.
+Let’s take a quick look at a graph.
+Now, this is a parabola and after the next chapter you will be able to quickly graph this without much effort.  However, we haven’t gotten that far yet and so we will need to choose some values of xxx, plug them in and compute the yyy values.
+As mentioned earlier, it helps to have an idea of what this graph is liable to look like when picking values of xxx.  So, don’t worry at this point why we chose the values that we did.  After the next chapter you would also be able to choose these values of xxx.
+Here is a table of values for this equation.
+Let’s verify the first one and we’ll leave the rest to you to verify.  For the first one we simply plug x=−2x=−2x =  - 2 into the equation and compute yyy.
+Here is the graph of this equation.
+Notice that when we set up the axis system in this example, we only set up as much as we needed.  For example, since we didn’t go past -2 with our computations we didn’t go much past that with our axis system.
+Also, notice that we used a different scale on each of the axes.  With the horizontal axis we incremented by 1’s while on the vertical axis we incremented by 2.  This will often be done in order to make the sketching easier.
+ 
+The final topic that we want to discuss in this section is that of intercepts.  Notice that the graph in the above example crosses the xxx-axis in two places and the yyy-axis in one place.  All three of these points are called intercepts.  We can, and often will be, more specific however.
+We often will want to know if an intercept crosses the xxx or yyy-axis specifically.  So, if an intercept crosses the xxx-axis we will call it an xxx-intercept.  Likewise, if an intercept crosses the yyy-axis we will call it a yyy-intercept.
+Now, since the xxx-intercept crosses xxx-axis then the yyy coordinates of the xxx-intercept(s) will be zero.  Also, the xxx coordinate of the yyy-intercept will be zero since these points cross the yyy-axis.  These facts give us a way to determine the intercepts for an equation.  To find the xxx-intercepts for an equation all that we need to do is set y=0y=0y = 0 and solve for xxx.  Likewise, to find the
+      yyy-intercepts for an equation we simply need to set x=0x=0x = 0 and solve for yyy.
+Let’s take a quick look at an example.
+As verification for each of these we will also sketch the graph of each function.  We will leave the details of the sketching to you to verify.  Also, these are all parabolas and as mentioned earlier we will be looking at these in detail in the next chapter.
+Let’s first find the yyy-intercept(s).  Again, we do this by setting x=0x=0x = 0 and solving for yyy.  This is usually the easier of the two.  So, let’s find the yyy-intercept(s).
+So, there is a single yyy-intercept : (0,−6)(0,−6)\left( {0, - 6} \right).
+The work for the xxx-intercept(s) is almost identical except in this case we set y=0y=0y = 0 and solve for xxx.  Here is that work.
+For this equation there are two xxx-intercepts : (−3,0)(−3,0)\left( { - 3,0} \right) and (2,0)(2,0)\left( {2,0} \right).  Oh, and you do remember how to solve quadratic equations right?
+For verification purposes here is sketch of the graph for this equation.
+First, the yyy-intercepts.
+So, we’ve got a single yyy-intercepts.  Now, the xxx-intercept(s).
+Okay, we got complex solutions from this equation.  What this means is that we will not have any xxx-intercepts.  Note that it is perfectly acceptable for this to happen so don’t worry about it when it does happen.
+Here is the graph for this equation.
+Sure enough, it doesn’t cross the xxx-axis.
+Here is the yyy-intercept work for this equation.
+Now the xxx-intercept work.
+In this case we have a single xxx-intercept.
+Here is a sketch of the graph for this equation.
+Now, notice that in this case the graph doesn’t actually cross the xxx-axis at x=−1x=−1x =  - 1.  This point is still called an xxx-intercept however.
+We should make one final comment before leaving this section.  In the previous set of examples all the equations were quadratic equations.  This was done only because they exhibited the range of behaviors that we were looking for and we would be able to do the work as well.  You should not walk away from this discussion of intercepts with the idea that they will only occur for quadratic equations.  They can, and do, occur for many different equations.

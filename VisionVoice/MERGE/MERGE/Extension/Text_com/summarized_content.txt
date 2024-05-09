@@ -1,0 +1,28 @@
+**Exponential Functions:**
+
+* Functions where the variable (x) is in the exponent, instead of the base.
+
+**Graphing Exponential Functions:**
+
+* Plot the points (x, y) where y is the value of the function for different values of x.
+* The shape of the graph depends on the base (a):
+    * Base > 1: Graph rises to the right.
+    * Base < 1: Graph falls to the right.
+
+**General Form of an Exponential Function:**
+
+```
+y = C * a^x
+```
+* C is a constant.
+* a is the base.
+
+**Exponential Function Properties:**
+
+* The graph never intersects the x-axis, but gets closer as x increases/decreases.
+
+**Rewriting Expression:**
+
+Given: 0.25^x = (1/4)^x
+
+Rewrite as: 0.25^x = 4^(-x)
